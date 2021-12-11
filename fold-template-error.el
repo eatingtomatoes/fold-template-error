@@ -128,7 +128,3 @@ bracket exceeds the limit, it will be folded.")
   (if fold-template-error--folded
       (fold-template-error-unfold-all)
     (fold-template-error-fold-all)))
-
-(add-hook 'compilation-finish-functions
-          (lambda (buffer message)
-            (fold-template-error-fold-all)))
