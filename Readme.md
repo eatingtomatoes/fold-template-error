@@ -29,3 +29,5 @@ Recommanded usage:
           (lambda (buffer message)
             (fold-template-error-fold-all)))
 ```
+
+Once the Enter key is clicked, the folded bracket will be opened.
